@@ -5,7 +5,7 @@ const AddItem = ({ text, onHandlerChangeItem, handleOnPress }) => {
     return (
         <View style={styles.container}>
             <TextInput 
-                placeholder='Escribe el ejercicio a realizar' 
+                placeholder='Escribe el ejercicio a realizar!' 
                 style={styles.input} 
                 value={text}
                 onChangeText={onHandlerChangeItem}  
